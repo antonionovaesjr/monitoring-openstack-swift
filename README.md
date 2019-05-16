@@ -4,7 +4,7 @@ Desenvolvi um script em python para coletar estatisticas do object storage, simp
 
 ## Configuração no Servidor
 
-Configurar o arquivo em cada servidor (que tenha a função de armazenamento de objetos) já com o IP (usado pelo swift) do servidor inserido no arquivo swift-check.conf
+Configurar o arquivo em cada servidor (que tenha a função de armazenamento de objetos) já com o IP do servidor inserido no arquivo swift-check.conf
 
 ```sh
 mkdir -p /srv/script/zabbix/
