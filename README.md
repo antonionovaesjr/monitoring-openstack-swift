@@ -6,7 +6,7 @@ Desenvolvi um script em python para coletar estatisticas do object storage, simp
 
 Configurar o arquivo em cada servidor já com o IP do servidor inserido no arquivo swift-check.conf
 
-'''
+sh'''
 mkdir -p /srv/script/zabbix/
 cp -pav swift-check.* /srv/script/zabbix/
 sed "s/IP_SERVIDOR/$(hostname -i)/g" swift-check.conf
