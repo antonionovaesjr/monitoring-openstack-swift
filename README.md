@@ -17,3 +17,5 @@ systemctl restart zabbix-agent
 ## Configuração no Zabbix
 
 Importar o template template_object_storage_swift.xml no zabbix e configurar no host monitorado
+
+![](Screenshot_20190516_152102.png?raw=true)
