@@ -9,7 +9,7 @@ Configurar o arquivo em cada servidor (que tenha a função de armazenamento de 
 ```sh
 mkdir -p /srv/script/zabbix/
 cp -pav swift-check.* /srv/script/zabbix/
-cp -pav userparameter_swift.conf /etc/zabbix/zabbix_agentd/
+cp -pav userparameter_swift.conf /etc/zabbix/zabbix_agentd.d/
 systemctl restart zabbix-agent
 ```
 
